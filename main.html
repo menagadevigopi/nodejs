@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Books</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+</head>
+<body class="mainpage">
+<h1 class="heading">Library</h1>
+<div class="buttons">
+	<a href="/home.html">Logout</a>
+	<button onclick="addpost()">Add Post</button>
+</div>
+<div class="clear"></div>
+<div id="addpost">
+<form class="postdetails" action="/postdata" method="post" >
+	<label>Title:</label>
+	<input type="text" name="title" id="title" placeholder="Enter the title">
+	<br>
+	<label>Content:</label>
+	<input type="text" name="content" id="content" placeholder="Enter the content">
+	<br>
+	<label>Date:</label>
+	<input type="text" name="date" id="date" placeholder="Enter the date">
+	<br>
+	<label>Author:</label>
+	<input type="text" name="author" id="author" placeholder="Enter the author">
+	<br>
+	<input type="submit"onclick="add()" name="Post">
+</form>
+</div>
+<div id="blogs"></div>
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

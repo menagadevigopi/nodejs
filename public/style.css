@@ -1,0 +1,41 @@
+.mainpage{
+	width: 960px;
+	margin: 0 auto;
+	
+}
+.heading{
+	text-align: center;
+}
+.author{
+	color: #6ec0ef;
+}
+.content{
+	font-family: arial;
+	font-size: 15px;
+	color: #8a8d8e;
+}
+.date{
+	color: #e88fc4;
+}
+.buttons{
+	float: right;
+	color: #8fc9e8;
+}
+.buttons a{
+	text-decoration: none;
+	margin: 15px;
+}
+.clear{
+	clear: both;
+}
+/*.login_form{
+	background:url(../l.jpg) no-repeat; 
+}*/
+input{
+	margin: 15px;
+}
+.postdetails{
+	width: 500px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
